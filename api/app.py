@@ -26,11 +26,11 @@ app = FastAPI(
 # model = ChatOpenAI()
 
 
-# ollama llama2
-llm = Ollama(model="llama2")
-
 # prompt1 = ChatPromptTemplate.from_template(
 #     "Write me an essay about {topic} with 100 words")
+
+# ollama llama2
+llm = Ollama(model="llama2")
 
 prompt2 = ChatPromptTemplate.from_template(
     "Write me an poem about {topic} for a 5 years child with 100 words")
